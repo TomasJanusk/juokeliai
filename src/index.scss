@@ -1,0 +1,23 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to left, rgb(255, 107, 139), rgb(255, 255, 82));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.carousel-item {
+    height: 300px;
+    width: 600px;
+
+}
+
+.carousel-item.active {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
